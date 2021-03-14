@@ -18,6 +18,8 @@
 
   - [Questions](#questions)
 
+  - [Acknowledgments](#acknowledgments)
+
   - [Licenses](#licenses)
 
   ## Description
@@ -26,11 +28,13 @@
 
   ## Deployed
 
-  Coming soon
+  https://enigmatic-garden-59547.herokuapp.com/ 
 
   ## Screenshots
 
-  Coming soon
+  ![homepage](./public/screenshots/homepage.png)
+
+  ![dashboard](./public/screenshots/dashboard.png)
 
   ## Usage
 
@@ -75,6 +79,10 @@
   Visit my Github profile at http://www.github.com/balokdecoy.
 
   If you have questions, you can reach me via email at johnniesimpson88@gmail.com.
+
+  ## Acknowledgments
+
+  Special thanks to Amir Ashtiany for assistance with setting up virtuals 
 
   ## Licenses
  Licensed under [GPL v3](https://www.gnu.org/licenses/gpl-3.0)
