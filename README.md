@@ -20,9 +20,13 @@
 
   ## Description
 
-  A workout tracking application. Runs in the browser. Data stored in MongoDB."
+  A workout tracking application. Runs in the browser. Data stored in MongoDB.
 
   ## Deployed
+
+  Coming soon
+
+  ## Screenshots
 
   Coming soon
 
