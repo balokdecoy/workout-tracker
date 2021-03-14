@@ -1,7 +1,9 @@
-// const db = require("../models/Workouts");
+// Require workout model
 const Workout = require("../models/Workouts")
+
 module.exports = (app) => {
 
+    // Find all workout data
     app.get("/api/workouts", (req, res) => {
         Workout.find({}).then((Workouts) => {
             res.json(Workouts);
@@ -10,6 +12,7 @@ module.exports = (app) => {
        })
 });
 
+    // Create a workout based on user exercise inputs
     app.post("/api/workouts", (req, res) => {
         Workout.create({
             exercises: [
@@ -22,6 +25,7 @@ module.exports = (app) => {
         } )
     });
 
+    // Add exercise to workouts array 
     app.put("/api/workouts/:id", (req, res) => {
         Workout.findOneAndUpdate(
             {
@@ -40,6 +44,7 @@ module.exports = (app) => {
        res.json(error)
    } )});
 
+   // Retrieve workout range data from database
    app.get("/api/workouts/range", (req, res) => {
     Workout.find({}).then((Workouts) => {
         res.json(Workouts);

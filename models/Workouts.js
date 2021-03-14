@@ -1,6 +1,8 @@
+// Import mongoose dependency and define mongoose Schema
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
+// Create mongoose schema for Workouts data
 const Workouts = new Schema({
 
     day: {
