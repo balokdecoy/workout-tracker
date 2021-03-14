@@ -82,7 +82,8 @@
 
   ## Acknowledgments
 
-  Special thanks to Amir Ashtiany for assistance with setting up virtuals 
+  Special thanks to Amir Ashtiany for assistance with setting up virtuals. Visit Amir's github page at: 
+  https://github.com/Alexfit4 
 
   ## Licenses
  Licensed under [GPL v3](https://www.gnu.org/licenses/gpl-3.0)
