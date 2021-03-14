@@ -49,13 +49,21 @@
   ## Technologies
 
   -JavaScript
+
   -MongoDB
+
   -Mongoose
+
   -Morgan
+
   -Node.js
+
   -Nodemon
+
   -Express
+
   -HTML
+  
   -CSS
   
   ## Contributing
