@@ -2,7 +2,7 @@ const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
 const PORT = process.env.PORT || 3000;
-const api = require("./public/api");
+const API = require("./public/api");
 const app = express();
 
 app.use(express.urlencoded({ extended: true }));
