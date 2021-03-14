@@ -12,6 +12,8 @@
 
   - [Usage](#usage)
 
+  - [Technologies](#technologies)
+
   - [Contributing](#contributing)
 
   - [Questions](#questions)
@@ -40,9 +42,22 @@
 
   Click 'Add exercise' to add the exercise to your current workout. If you have added all of your exercises to your workout, click Complete. 
 
-  You will be redirected to the dashboard and given compiled data about your last 7 workouts. 
-  
+  You will be redirected to the dashboard and given compiled data about your last workout. 
 
+  Click on the Dashboard link at the top of the home page to view data and analysis of your last 7 workouts.
+
+  ## Technologies
+
+  -JavaScript
+  -MongoDB
+  -Mongoose
+  -Morgan
+  -Node.js
+  -Nodemon
+  -Express
+  -HTML
+  -CSS
+  
   ## Contributing
 
   This application is free and open source software (FOSS) covered under GPL. 
