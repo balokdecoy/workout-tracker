@@ -5,7 +5,18 @@ module.exports = (app) => {
 
     // Find all workout data
     app.get("/api/workouts", (req, res) => {
-        Workout.find({}).then((Workouts) => {
+        Workout.aggregate([
+            {
+                $limit: 7,
+            },
+            {
+                $addFields: {
+                    totalDuration: {
+                        $sum: "$exercises.duration",
+                    }
+                }
+            },
+        ]).then((Workouts) => {
             res.json(Workouts);
        }).catch((error) => {
            res.json(error)
@@ -46,7 +57,18 @@ module.exports = (app) => {
 
    // Retrieve workout range data from database
    app.get("/api/workouts/range", (req, res) => {
-    Workout.find({}).then((Workouts) => {
+    Workout.aggregate([
+        {
+            $limit: 7,
+        },
+        {
+            $addFields: {
+                totalDuration: {
+                    $sum: "$exercises.duration",
+                }
+            }
+        }
+    ]).then((Workouts) => {
         res.json(Workouts);
    }).catch((error) => {
        res.json(error)
